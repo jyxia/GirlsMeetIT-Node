@@ -1,10 +1,9 @@
-
 /**
  * Module dependencies.
  */
 
 var home = require('../../app/controllers/home');
-var pin = require('../../app/controllers/pinController');
+var pin = require('../../app/controllers/PinController');
 
 /**
  * Expose
