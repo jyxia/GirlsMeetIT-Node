@@ -1,0 +1,42 @@
+{
+  "name": "Girls-Meet-IT-backend",
+  "description": "Pinterest API test",
+  "version": "0.0.1",
+  "author": {
+    "name": "Jinyue Xia",
+    "email": "xiajinyue@gmail.com"
+  },
+  "engines": {
+    "node": "0.12.x"
+  },
+  "scripts": {
+    "start": "NODE_PATH=./config:./app/controllers NODE_ENV=development ./node_modules/.bin/nodemon server.js",
+    "test": "make test",
+    "production": "NODE_PATH=./config:./app/controllers NODE_ENV=production ./node_modules/.bin/forever -m 5 server.js"
+  },
+  "dependencies": {
+    "body-parser": "1.13.2",
+    "compression": "1.5.1",
+    "express": "4.13.1",
+    "forever": "0.14.2",
+    "method-override": "2.3.3",
+    "mongoose": "4.0.6",
+    "morgan": "1.6.1",
+    "swig": "^1.4.2",
+    "winston": "1.0.1",
+    "request-promise": "2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "latest",
+    "mocha": "latest",
+    "should": "latest",
+    "supertest": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jyxia/vcdata-backend.git"
+  },
+  "keywords": [
+    "Pinterest API Test"
+  ]
+}
