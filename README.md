@@ -1,16 +1,13 @@
 
-[![Build Status](https://img.shields.io/travis/madhums/node-express-mongoose.svg?style=flat)](https://magnum.travis-ci.com/jyxia/vcdata-backend)
+[![Build Status](https://img.shields.io/travis/madhums/node-express-mongoose.svg?style=flat)](https://travis-ci.org/jyxia/GirlsMeetIT-Node)
 
-## Node Express Mongoose
+## GirlsMeetIT Node Backend
 
-The boilerplate for building web apps using express, mongoose and passport is used from:
-
-Read the [wiki](https://github.com/madhums/node-express-mongoose/wiki) to understand how the application is structured.
 
 ## Installation and Usage
 
-    $ git clone git@github.com:jyxia/vcdata-backend.git
-    $ cd node-express-mongoose
+    $ git clone https://github.com/jyxia/GirlsMeetIT-Node.git
+    $ cd GirlsMeetIT-Node
     $ npm install
     $ npm start
 

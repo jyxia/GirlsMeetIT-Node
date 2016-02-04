@@ -7,4 +7,4 @@ node_js:
 deploy:
   provider: heroku
   api_key: "f22b3cc9-51b7-421d-96aa-688a7e09e554"
-  app: girls-meet-it
+  app: girlsmeetit
