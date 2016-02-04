@@ -7,7 +7,7 @@
     "email": "xiajinyue@gmail.com"
   },
   "engines": {
-    "node": "0.12.x"
+    "node": "4.2.x"
   },
   "scripts": {
     "start": "NODE_PATH=./config:./app/controllers NODE_ENV=development ./node_modules/.bin/nodemon server.js",
