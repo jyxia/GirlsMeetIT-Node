@@ -60,7 +60,7 @@ module.exports = function (app) {
 
   // Don't log during tests
   // Logging middleware
-  if (env !== 'test') app.use(morgan(log));
+  if (env !== 'test') app.use(morgan("default", log));
 
   // Swig templating engine settings
   if (env === 'development' || env === 'test') {
